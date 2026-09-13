@@ -1,8 +1,3 @@
-"""
-Core RAG logic: retrieve relevant chunks from the vector store,
-then ask the LLM to answer strictly from that retrieved context.
-"""
-
 from langchain_openai import ChatOpenAI
 from langchain_chroma import Chroma
 
