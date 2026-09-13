@@ -1,8 +1,3 @@
-"""
-Handles turning a raw PDF audit report into searchable chunks
-stored in a Chroma vector database.
-"""
-
 from pypdf import PdfReader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
