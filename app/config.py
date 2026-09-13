@@ -1,9 +1,3 @@
-"""
-Centralized configuration for the Industrial RAG Auditor.
-Keeping settings here (instead of scattered across files) makes the
-app easier to tune and reason about.
-"""
-
 import os
 from dotenv import load_dotenv
 
