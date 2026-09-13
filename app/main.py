@@ -1,9 +1,3 @@
-"""
-Streamlit entrypoint for the Industrial RAG Auditor.
-This file only handles UI wiring — all business logic lives in
-ingest.py and rag_pipeline.py.
-"""
-
 import streamlit as st
 from app.ingest import ingest_pdf
 from app.rag_pipeline import answer_question
